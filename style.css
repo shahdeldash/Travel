@@ -1,0 +1,95 @@
+body{
+    height: 4000px;
+}
+html{
+    scroll-behavior: smooth;
+  }
+.nav-item .nav-link{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+    background-color: gold;
+}
+.header{
+    background-image: url(imges/background-img.png);
+    height: 100vh;
+    background-size: cover;
+}
+.header .content{
+    padding-top: 200px;
+    text-align: center;
+}
+.country::after{
+    content: '';
+    animation: country 8s infinite;
+}
+
+
+@keyframes country{
+    10%{
+        content: 'Egypt';
+    }
+    20%{
+        content: 'Türkiye';
+    }
+    30%{
+        content: 'Korea';
+    }
+    40%{
+        content: 'Japan';
+    }
+    50%{
+        content: 'China';
+    }
+    60%{
+        content: 'Canada';
+    }
+    70%{
+        content: 'Dubai';
+    }
+    80%{
+        content: 'Oman';
+    }
+    90%{
+        content: 'India';
+    }
+    100%{
+        content: 'Pakista';
+    }
+}
+.Services .ca{
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 5px;
+}
+.Services .ca > *{
+    margin-top: 10px;
+}
+.Gallery img{
+    height: 200px;
+    width: 100%;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.Gallery img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+footer{
+    background-color: rgb(54, 52, 52);
+  }
+  footer a{
+    text-decoration: none;
+    color: #fff;
+  } 
+
+
+
+
+
+
+
+
